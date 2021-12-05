@@ -8,7 +8,6 @@
 		<classes>
 			<class name="com.medpay.qa.testcases.HomePageTest" />
 			<class name="com.medpay.qa.testcases.DashboardPageTest" />
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
