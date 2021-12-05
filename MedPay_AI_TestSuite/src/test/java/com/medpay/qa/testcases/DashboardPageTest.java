@@ -31,13 +31,13 @@ public class DashboardPageTest extends TestBase {
 
 	}
 
-//	@Test(priority=1)
+	@Test(priority=1)
 	public void verify_DashBoardPageTitle() {
 		String dashboardpageTitle = dashboardpage.verify_dashboardPageTitle();
 		Assert.assertEquals(dashboardpageTitle, "Order Dashboard");
 	}
 
-//	@Test(priority=2)
+	@Test(priority=2)
 	public void verify_pharmacyOrderLabel() {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		dashboardpage.verify_pharmacyOrderLabel();
