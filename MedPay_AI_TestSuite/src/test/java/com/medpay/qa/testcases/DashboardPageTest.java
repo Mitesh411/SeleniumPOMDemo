@@ -43,7 +43,7 @@ public class DashboardPageTest extends TestBase {
 		dashboardpage.verify_pharmacyOrderLabel();
 	}
 	
-	@Test(priority = 3)
+//	@Test(priority = 3)
 	public void verify_closenotificationmessage() {
 
 		dashboardpage.verify_closenotification();
