@@ -1,94 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52273" started-at="2021-12-05T17:33:21 IST" finished-at="2021-12-05T17:34:13 IST">
+  <suite name="Suite" duration-ms="65724" started-at="2021-12-11T12:52:24 IST" finished-at="2021-12-11T12:53:29 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="52273" started-at="2021-12-05T17:33:21 IST" finished-at="2021-12-05T17:34:13 IST">
+    <test name="Test" duration-ms="65724" started-at="2021-12-11T12:52:24 IST" finished-at="2021-12-11T12:53:29 IST">
       <class name="com.medpay.qa.testcases.HomePageTest">
-        <test-method status="FAIL" signature="verifyHomePageTitle()[pri:1, instance:com.medpay.qa.testcases.HomePageTest@36b4cef0]" name="verifyHomePageTitle" duration-ms="4474" started-at="2021-12-05T17:33:21 IST" finished-at="2021-12-05T17:33:25 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.medpay.qa.reports.TestListener.onTestSuccess(TestListener.java:49)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.HomePageTest@23d2a7e8]" name="setup" is-config="true" duration-ms="6646" started-at="2021-12-11T12:52:24 IST" finished-at="2021-12-11T12:52:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.medpay.qa.testcases.HomePageTest@23d2a7e8]" name="verifyHomePageTitle" duration-ms="13" started-at="2021-12-11T12:52:30 IST" finished-at="2021-12-11T12:52:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.HomePageTest@36b4cef0]" name="setup" is-config="true" duration-ms="4144" started-at="2021-12-05T17:33:21 IST" finished-at="2021-12-05T17:33:25 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.medpay.qa.testcases.HomePageTest@23d2a7e8]" name="tearDown" is-config="true" duration-ms="585" started-at="2021-12-11T12:52:30 IST" finished-at="2021-12-11T12:52:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.medpay.qa.testcases.HomePageTest -->
       <class name="com.medpay.qa.testcases.DashboardPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@1a3869f4]" name="setup" is-config="true" duration-ms="2853" started-at="2021-12-05T17:33:25 IST" finished-at="2021-12-05T17:33:28 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="setup" is-config="true" duration-ms="2982" started-at="2021-12-11T12:52:31 IST" finished-at="2021-12-11T12:52:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verify_closenotificationmessage()[pri:3, instance:com.medpay.qa.testcases.DashboardPageTest@1a3869f4]" name="verify_closenotificationmessage" duration-ms="47769" started-at="2021-12-05T17:33:25 IST" finished-at="2021-12-05T17:34:13 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.medpay.qa.reports.TestListener.onTestSuccess(TestListener.java:49)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verify_DashBoardPageTitle()[pri:1, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="verify_DashBoardPageTitle" duration-ms="8" started-at="2021-12-11T12:52:34 IST" finished-at="2021-12-11T12:52:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_DashBoardPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="tearDown" is-config="true" duration-ms="557" started-at="2021-12-11T12:52:34 IST" finished-at="2021-12-11T12:52:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="setup" is-config="true" duration-ms="3099" started-at="2021-12-11T12:52:35 IST" finished-at="2021-12-11T12:52:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_pharmacyOrderLabel()[pri:2, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="verify_pharmacyOrderLabel" duration-ms="1612" started-at="2021-12-11T12:52:38 IST" finished-at="2021-12-11T12:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_pharmacyOrderLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="tearDown" is-config="true" duration-ms="562" started-at="2021-12-11T12:52:39 IST" finished-at="2021-12-11T12:52:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="setup" is-config="true" duration-ms="3225" started-at="2021-12-11T12:52:40 IST" finished-at="2021-12-11T12:52:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_closenotificationmessage()[pri:3, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="verify_closenotificationmessage" duration-ms="45820" started-at="2021-12-11T12:52:43 IST" finished-at="2021-12-11T12:53:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_closenotificationmessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.medpay.qa.testcases.DashboardPageTest@491cc5c9]" name="tearDown" is-config="true" duration-ms="578" started-at="2021-12-11T12:53:29 IST" finished-at="2021-12-11T12:53:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.medpay.qa.testcases.DashboardPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
